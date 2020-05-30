@@ -1,0 +1,24 @@
+void main(){
+/*    Clase #-4
+     variables numericas
+//      tipo_dato | nombre_variable | = |valor_asignado ;
+*/
+//   variable var 
+    var number = 199.7;
+//   variable int
+    int number_dos = 1987;  // modificar el valor 
+    int ano_actual = 2020;
+    int resultado  = ano_actual - number_dos  ; 
+//   variable num
+    num numero = 3.1416;
+    num numeros = 10;
+    num res = numeros - numero;
+//   variable double
+    double nota_1 = 4.5;
+    double nota_2 = 1.5; 
+    double nota_3 = 2.5; 
+    double nota_final = (nota_1 + nota_2 + nota_3 ) / 3;
+
+  
+  print('$number - $resultado - $numeros - $numero resultado: $res  notaFinal: $nota_final');
+}
